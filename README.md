@@ -1,26 +1,15 @@
-#Lab8 Assignment
+# KNN Lab
 
 ## Overview
+This project applies K-Nearest Neighbors (KNN) to classify data.
 
-This project uses the K-Nearest Neighbors (KNN) algorithm to classify data.
+## What I did
+- Loaded and explored the dataset  
+- Cleaned the data  
+- Split into training and testing  
+- Applied scaling  
+- Trained KNN model  
+- Tested different K values  
 
----
-
-## Steps
-
-* Load the dataset
-* Remove unnecessary column (Unnamed: 0)
-* Split data into training and testing
-* Apply scaling
-* Train KNN model
-* Evaluate results
-* Choose the best K value
-
----
-
-## Tools
-
-* pandas
-* numpy
-* matplotlib
-* scikit-learn
+## Result
+The best K value was selected based on lowest error rate.
